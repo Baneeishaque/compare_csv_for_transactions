@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="compare_csv_for_transactions.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <option name="filePath" value="$PROJECT_DIR$/bin/compare_csv_for_transactions.dart" />
+    <method v="2" />
+  </configuration>
+</component>
