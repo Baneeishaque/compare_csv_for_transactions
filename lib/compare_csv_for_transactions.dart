@@ -17,11 +17,11 @@ Future<List<dynamic>> readCsv() async {
 }
 
 void printTransactions(List<dynamic> csvAsList) {
-  var transactions = (csvAsList[0] as List<dynamic>).skip(199).take(33).toList();
+  var transactions =
+      (csvAsList[0] as List<dynamic>).skip(199).take(33).toList();
   print(transactions);
 }
 
 void printTransactionsFromCsv() async {
-
   printTransactions(await readCsv());
 }
